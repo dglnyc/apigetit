@@ -3,6 +3,8 @@ const app=express()
 require('cors')
 const PORT=3000
 
+app.use(cors())
+
 const data={
 "personName":'Me',
 "personStatus":'Profeshional',
